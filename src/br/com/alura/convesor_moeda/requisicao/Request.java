@@ -12,7 +12,8 @@ public class Request {
     private String fetchMoeda(String codigoBase, String codigoAlvo, float valor) {
         try {
 
-            URI url = URI.create("https://v6.exchangerate-api.com/v6/9dd8ac587df4e49804fc2621/pair/" + codigoBase
+            String API_KEY = "9dd8ac587df4e49804fc2621";
+            URI url = URI.create("https://v6.exchangerate-api.com/v6/" + API_KEY + "/pair/" + codigoBase
                     + "/" + codigoAlvo + "/" + valor);
 
             HttpClient client = HttpClient.newHttpClient();
