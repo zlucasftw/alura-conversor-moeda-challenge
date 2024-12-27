@@ -16,7 +16,7 @@ public class Principal {
             Request request = new Request();
             Currency currency;
             int opcao = 0;
-            double valor = 0;
+            float valor = 0;
 
             while ((opcao = menu.mostrarMenu()) != 7) {
                 valor = menu.mostrarValorConversao();

@@ -32,10 +32,10 @@ public class Menu {
 
     }
 
-    public double mostrarValorConversao() {
+    public float mostrarValorConversao() {
         try {
             System.out.print("Digite o valor que deseja converter: ");
-            return scanner.nextDouble();
+            return scanner.nextFloat();
         } catch (InputMismatchException error) {
             throw new RuntimeException("Erro na digitação do valor para conversão.");
         }

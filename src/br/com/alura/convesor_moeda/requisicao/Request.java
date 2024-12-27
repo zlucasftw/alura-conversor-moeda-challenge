@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 
 public class Request {
 
-    private String fetchMoeda(String codigoBase, String codigoAlvo, double valor) {
+    private String fetchMoeda(String codigoBase, String codigoAlvo, float valor) {
         try {
 
             URI url = URI.create("https://v6.exchangerate-api.com/v6/9dd8ac587df4e49804fc2621/pair/" + codigoBase
@@ -33,7 +33,7 @@ public class Request {
         }
     }
 
-    public String getJson(int opcao, double valor) {
+    public String getJson(int opcao, float valor) {
 
         switch (opcao) {
             case 1:

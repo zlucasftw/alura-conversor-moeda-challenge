@@ -18,8 +18,9 @@ public class CurrencyLog {
             // BufferedWriter writer = new BufferedWriter(new FileWriter(Date.from(Instant.ofEpochSecond(currency.time_last_update_unix())) + ".json", true));
             BufferedWriter writer = new BufferedWriter(new FileWriter(currency.time_last_update_unix() + ".json", true));
             // writer.write(json + ",");
+            // writer.append("[");
             writer.write(json);
-            writer.append(",");
+            // writer.append("],");
             writer.close();
         } catch (IOException error) {
             throw new RuntimeException("Erro na gravação de log.");
