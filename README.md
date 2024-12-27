@@ -59,7 +59,7 @@ Vá ao diretório do projeto
 
 2. Vá até a classe `Request.java` e troque a variável **`API_KEY`** por sua chave de API gerada na [ExchangeRate-API](https://www.exchangerate-api.com/).
 
-> \
+> [!IMPORTANT]\
 > Até a data de disponibilidade do challenge minha chave de API está no código e disponível para ser utilizada mas será retirada ou alcançar o máximo de requisições diárias.
 
 3. Após isso vá a classe `Principal.java` e realize a execução, utilizando o terminal/console que fornece interação com o usuário.
@@ -70,6 +70,5 @@ Vá ao diretório do projeto
 - https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos
 - https://cursos.alura.com.br/course/java-listas-colecoes-dados
 - https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros
-- https://cursos.alura.com.br/course/java-criando-primeira-aplicacao
 
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
