@@ -18,6 +18,7 @@ O desafio consiste na construção de um conversor de moedas fazendo requisiçõ
 - [ ]   Histórico de conversões - Gravação de arquivo de log em formato JSON
 - [ ]   Possibilidade no menu para leitura do arquivo de log
 - [ ]   Aumentar possibilidades de câmbio para conversão
+- [ ]   Adicionar demonstração com GIF da aplicação funcional no README
 
 ## Tecnologias e serviços utilizados
 
