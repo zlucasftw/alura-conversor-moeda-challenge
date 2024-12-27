@@ -21,4 +21,18 @@ public class Converter {
         }
     }
 
+    public static String getCurrencyToJson(Currency currency) {
+
+        try {
+            Gson gson = new GsonBuilder()
+                    .setPrettyPrinting()
+                    .create();
+            return gson.toJson(currency);
+        }  catch (NullPointerException error) {
+            throw new RuntimeException("Erro na serialização da moeda");
+        } catch (Exception error) {
+            throw new RuntimeException("Erro geral na aplicação.");
+        }
+    }
+
 }

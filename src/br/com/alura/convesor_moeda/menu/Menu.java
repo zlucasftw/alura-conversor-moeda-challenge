@@ -12,7 +12,7 @@ public class Menu {
     public int mostrarMenu() {
 
         System.out.print("""
-                **************************************************************
+
                 Seja bem-vindo/a ao Conversor de Moeda =]
                 
                 1) Dólar =>> Peso argentino
@@ -42,8 +42,6 @@ public class Menu {
     }
 
     public void mostrarConversao(double valor, Currency currency) {
-//        System.out.println("Valor " +  valor + "[" +  currency.base_code() + "] corresponde ao valor final de =>>> " + currency.conversion_result() + " [" + currency.base_code()  + "]");
-//        System.out.println("Valor 10 [USD] corresponde ao valor final de =>>> " + currency.conversion_result() + " [BRL]");
         System.out.println("Valor " +  valor + " [" + currency.base_code() +
                 "] corresponde ao valor final de =>>> " + currency.conversion_result() +
                 " [" + currency.target_code() + "]");

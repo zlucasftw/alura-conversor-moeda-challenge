@@ -1,0 +1,57 @@
+{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "USD",
+  "target_code": "BRL",
+  "conversion_rate": 6.181,
+  "conversion_result": 6.181
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "USD",
+  "target_code": "ARS",
+  "conversion_rate": 1029.0,
+  "conversion_result": 1029.0
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "ARS",
+  "target_code": "USD",
+  "conversion_rate": 9.7182E-4,
+  "conversion_result": 9.7182E-4
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "USD",
+  "target_code": "BRL",
+  "conversion_rate": 6.181,
+  "conversion_result": 6.181
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "BRL",
+  "target_code": "USD",
+  "conversion_rate": 0.1618,
+  "conversion_result": 0.1618
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "USD",
+  "target_code": "COP",
+  "conversion_rate": 4409.655,
+  "conversion_result": 4409.655
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "COP",
+  "target_code": "USD",
+  "conversion_rate": 2.2678E-4,
+  "conversion_result": 2.2678E-4
+}{
+  "time_last_update_unix": 1735257602,
+  "time_last_update_utc": "Fri, 27 Dec 2024 00:00:02 +0000",
+  "base_code": "USD",
+  "target_code": "ARS",
+  "conversion_rate": 1029.0,
+  "conversion_result": 1029.0
+},

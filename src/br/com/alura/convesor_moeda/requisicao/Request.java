@@ -48,8 +48,6 @@ public class Request {
                 return fetchMoeda("USD", "COP", valor);
             case 6:
                 return fetchMoeda("COP", "USD", valor);
-            case 7:
-
             default:
                 return null;
         }
